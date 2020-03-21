@@ -5,6 +5,8 @@
     <Authors>Fabien Camous</Authors>
     <Company>BearingPoint</Company>
     <Description>Mocking Azure Service Bus routing</Description>
+    <RepositoryUrl>https://github.com/camous/MockServiceBus</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/camous/MockServiceBus</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
