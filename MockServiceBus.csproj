@@ -7,6 +7,7 @@
     <Description>Mocking Azure Service Bus routing</Description>
     <RepositoryUrl>https://github.com/camous/MockServiceBus</RepositoryUrl>
     <PackageProjectUrl>https://github.com/camous/MockServiceBus</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
