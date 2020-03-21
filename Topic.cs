@@ -9,7 +9,7 @@ namespace MockServiceBus
     public class Topic
     {
         public string Name { get; set; }
-        public List<Subscription> Subscribers { get; set; } = new List<Subscription>();
+        public List<Subscription> Subscriptions { get; set; } = new List<Subscription>();
 
         public IEnumerable<Message> SendMessage(Message message)
         {
@@ -17,7 +17,7 @@ namespace MockServiceBus
 
             var outputMessages = new List<Message>();
 
-            foreach (var subscriber in Subscribers)
+            foreach (var subscriber in Subscriptions)
             {
                 outputMessages.Add(subscriber.ReceiveMessage(message.Copy()));
             }
